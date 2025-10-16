@@ -77,7 +77,7 @@ Tabela contendo os artefatos encontrados, com as colunas:
 
 | Exemplo de Tela |
 |------------------|
-| ![preview](https://inovacodigo.com.br/camila/foto3.png) |
+| ![preview](https://inovacodigo.com.br/camila/image.png) |
 
 ---
 
