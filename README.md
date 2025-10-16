@@ -49,7 +49,7 @@ Os resultados são exibidos em uma tabela dinâmica e interativa.
 2. Crie uma **UI Page**  
    - Cole o conteúdo Jelly fornecido no projeto  
 3. Publique e acesse a página através da URL:  
-   `https://<sua_instancia>.service-now.com/code_review_update_set.do`  
+   `https://<sua_instancia>.service-now.com/<nome_ui_page>.do`  
 4. Informe um ou mais nomes de Update Sets separados por vírgula  
 5. Clique em **Buscar**  
 6. Utilize os checkboxes para marcar o resultado dos code reviews  
