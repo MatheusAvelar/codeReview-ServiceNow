@@ -2,7 +2,7 @@
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:u="jelly:util">
     <g:ui_form>
 
-        <!-- Header -->
+        <!-- Header organizado -->
         <div class="form-header">
             <h2>Code Review - Update Set</h2>
             <button id="btnBuscar" type="button">Buscar</button>
@@ -17,7 +17,7 @@
         <div style="margin-bottom:15px;">
             <label for="typeFilter">Filtrar por Type</label>
             <input type="text" id="typeFilter" placeholder="Digite um Type para incluir" />
-        </div> 
+        </div>
 
         <div style="margin-bottom:15px;">
             <label for="notTypeFilter">Excluir Type</label>
@@ -210,6 +210,7 @@
                     html += "<table>";
                     html += "<thead><tr>";
                     html += "<th>Nome</th>";
+					html += "<th>Ação</th>";
                     html += "<th>Type</th>";
                     html += "<th>Update Set</th>";
                     html += "<th>Application</th>";
@@ -220,6 +221,7 @@
                     data.forEach(function(item, index) {
                         html += "<tr id='row_" + index + "'>";
                         html += "<td><a target='_blank' href='" + (item.link !== "Não informado" ? item.link : "#") + "'>" + item.name + "</a></td>";
+						html += "<td>" + item.action + "</td>";
                         html += "<td>" + item.type + "</td>";
                         html += "<td>" + item.updateSet + "</td>";
                         html += "<td>" + item.application + "</td>";
