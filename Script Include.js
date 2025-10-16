@@ -33,9 +33,10 @@ GetUpdateSetArtifacts.prototype = Object.extendsObject(AbstractAjaxProcessor, {
                 type: gr.type.toString() || "Não informado",
                 updateSet: gr.update_set.name.toString() || "Não informado",
 				application: gr.application.name.toString() || "Não informado",
+				action: gr.action.toString() || "Não informado",
 				count: total.toString()
             });
-        } 
+        }
 
         return JSON.stringify(result);
     },
